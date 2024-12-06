@@ -140,6 +140,7 @@ def get_chapterId(courseid,clazzid,headers,cookies):
 if __name__ == "__main__":
     #随便一个章节的url
     url = ""
+    session = requests.Session()
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
     }
